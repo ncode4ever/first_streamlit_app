@@ -41,6 +41,6 @@ streamlit.text(my_data_row)
 # streamlit.dataframe(my_data_row)
 
 # Add a textbox and display selected fruit
-# add_my_fruit = streamlit.text_input('What fruit would you like to add?','Jackfruit')
-add_my_fruit = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Jackfruit'])
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','Jackfruit')
+# add_my_fruit = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Jackfruit'])
 streamlit.write('The user entered ', add_my_fruit)
